@@ -8,6 +8,8 @@ A/libc: /usr/local/google/buildbot/src/android/ndk-release-r20/external/libcxx/.
 A/libc: Fatal signal 6 (SIGABRT), code -6 in tid 27613 (com.testarcgis)
 ```
 
+The issue seems to be that React native and ArcGIS is providing conflicting `libc++_shared.so`-files.
+
 ## Failed fixes
 
 - Removing Flipper
