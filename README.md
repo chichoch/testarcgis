@@ -13,5 +13,6 @@ A/libc: Fatal signal 6 (SIGABRT), code -6 in tid 27613 (com.testarcgis)
 - Removing Flipper
 - Different options for `packagingOptions` in `android/app/build.gradle` (merge, pickFirst, exclude)
 - Adding the flag `android.bundle.enableUncompressedNativeLibs=false` in `gradle.properties`
+- Adding `implementation 'com.facebook.soloader:soloader:0.9.0+'` in `app/build.gradle`
 
 **This issue is probably related:** https://github.com/facebook/react-native/issues/29377
