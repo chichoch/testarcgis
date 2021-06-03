@@ -1,3 +1,13 @@
+# *** ISSUE FIXED *** 
+
+Upgrading `react-native` to `0.64.1` and ArcGIS SDK to `100.0.10` fixed the issue for me. 
+
+I have updated the repo with the working fix. 
+
+This repo will stay for future reference. 
+
+# *** Original readme: ***
+
 # testarcgis
 Simple example which shows the problem with react-native v.0.63.3 with ArcGIS SDK v100.9.0 on Android
 
