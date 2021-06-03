@@ -43,6 +43,14 @@ public class MainApplication extends Application implements ReactApplication {
 
   @Override
   public void onCreate() {
+    /* 
+    If future problems with ArcGIS SDK and RN
+    ( assertion "terminating with uncaught exception of type std::bad_cast: std::bad_cast" )
+    Try to uncomment the next line:
+
+    Reference: https://github.com/facebook/react-native/issues/30459#issuecomment-853731442
+    */
+    // System.loadLibrary("c++_shared");
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
